@@ -43,4 +43,4 @@ Factory has two source files:
     javac --release 17 ReportExports.java FactoryChecks.java
     java FactoryChecks
 
-The examples use in-memory substitutes where the associated article discusses databases, queues, framework proxies, cloud providers, or remote services. They demonstrate pattern behavior; they do not claim to validate external-system guarantees.
+Some examples use in-memory implementations instead of databases, message queues, framework proxies, cloud providers, or remote services. The code demonstrates each pattern's behavior; it does not reproduce the operational guarantees of those external systems.
